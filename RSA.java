@@ -11,7 +11,8 @@ public static void main (String args[])
 q=BigInteger.probablePrime(bitLength,R);
 n=p.multiply(q);
 e=BigInteger.probablePrime(bitLength/2,R);
-phi=p.subtract(BigInteger.ONE).multiply(q.subtract(BigInteger.ONE)); while(phi.gcd(e).compareTo(BigInteger.ONE)!=0 && e.compareTo(phi)<0)
+phi=p.subtract(BigInteger.ONE).multiply(q.subtract(BigInteger.ONE)); 
+while(phi.gcd(e).compareTo(BigInteger.ONE)!=0 && e.compareTo(phi)<0)
 e.add(BigInteger.ONE);
 d=e.modInverse(phi);
 String msg="";

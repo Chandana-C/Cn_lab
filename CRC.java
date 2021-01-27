@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class CRC {
     public static int n;
 
-    public static void main(String[] args) {
+    publ ic
+
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         CRC crc = new CRC();
         String copy, rec, code, zero = "0000000000000000";
